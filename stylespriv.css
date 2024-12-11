@@ -1,0 +1,123 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #1b1b2f; /* Fondo oscuro inspirado en Hollow Knight */
+    color: #e0e0e0; /* Texto claro para contraste */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #121212;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #d4af37; /* Línea dorada para acentos */
+}
+
+header h1 {
+    color: #d4af37; /* Color dorado para título */
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: beige;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #d4af37;
+    border-bottom: 2px solid #d4af37;
+}
+
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #252545;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #d4af37;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #d4af37;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #d4af37;
+    font-size: 1.4em;
+    margin: 15px 0;
+}
+
+p {
+    color: #e0e0e0;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #d4af37;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e0d18a;
+    text-decoration: underline;
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #121212;
+    color: #e0e0e0;
+    border-top: 2px solid #d4af37;
+}
+
+footer a {
+    color: beige;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #d4af37;
+}
+
+/* Adaptaciones responsivas */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    main {
+        padding: 15px;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

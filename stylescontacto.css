@@ -1,0 +1,113 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1e1e2f;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+/* Encabezado y navegación */
+header {
+    background-color: #121212;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #d4af37;
+}
+
+header h1 {
+    color: #d4af37;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: beige;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #d4af37;
+    border-bottom: 2px solid #d4af37;
+}
+
+/* Sección de información de contacto */
+#contacto-informacion {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #252545;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+#contacto-informacion h2 {
+    color: #d4af37;
+    font-size: 1.8em;
+    border-bottom: 1px solid #d4af37;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.datos-contacto p {
+    margin: 10px 0;
+}
+
+.datos-contacto a {
+    color: #d4af37;
+    text-decoration: none;
+}
+
+.datos-contacto a:hover {
+    color: #e0d18a;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #121212;
+    color: #e0e0e0;
+    border-top: 2px solid #d4af37;
+}
+
+footer a {
+    color: beige;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #d4af37;
+}
+
+/* Adaptaciones responsivas */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    #contacto-informacion {
+        padding: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
